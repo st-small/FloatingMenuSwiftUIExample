@@ -13,6 +13,7 @@
 		84FBC3502381A348006C0374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FBC34F2381A348006C0374 /* Assets.xcassets */; };
 		84FBC3532381A348006C0374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FBC3522381A348006C0374 /* Preview Assets.xcassets */; };
 		84FBC3562381A348006C0374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBC3542381A348006C0374 /* LaunchScreen.storyboard */; };
+		84FBC35E2381A525006C0374 /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBC35D2381A525006C0374 /* FloatingMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84FBC3522381A348006C0374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84FBC3552381A348006C0374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FBC3572381A348006C0374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FBC35D2381A525006C0374 /* FloatingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				84FBC3492381A347006C0374 /* AppDelegate.swift */,
 				84FBC34B2381A347006C0374 /* SceneDelegate.swift */,
 				84FBC34D2381A347006C0374 /* ContentView.swift */,
+				84FBC35D2381A525006C0374 /* FloatingMenu.swift */,
 				84FBC34F2381A348006C0374 /* Assets.xcassets */,
 				84FBC3542381A348006C0374 /* LaunchScreen.storyboard */,
 				84FBC3572381A348006C0374 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				84FBC34A2381A347006C0374 /* AppDelegate.swift in Sources */,
 				84FBC34C2381A347006C0374 /* SceneDelegate.swift in Sources */,
+				84FBC35E2381A525006C0374 /* FloatingMenu.swift in Sources */,
 				84FBC34E2381A347006C0374 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

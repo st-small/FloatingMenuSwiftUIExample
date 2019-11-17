@@ -10,12 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        ZStack(alignment: .bottomTrailing) {
+            Rectangle()
+                .foregroundColor(.clear)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            FloatingMenu()
+                .padding()
+        }
     }
 }
